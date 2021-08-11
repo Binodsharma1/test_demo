@@ -1,3 +1,6 @@
 --Find max salary by Department number-
 
 SELECT DEPARTMENT_ID, MAX(SALARY) MAX_SAL, MIN(SALARY) MIN_SAL FROM EMPLOYEES GROUP BY DEPARTMENT_ID;
+
+------------
+Modified 1.
